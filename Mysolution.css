@@ -117,7 +117,51 @@
 
 /* esercizio 12 */
 
-.ex-12-icon {
-
-
+.ex-12-button:hover .ex-12-top-white {
+    animation: left_to_right 1s linear;
 }
+
+@keyframes left_to_right {
+
+    0% {
+        top: -10%;
+        left: 10%;
+    }
+
+    50% {
+        top: -10%;
+        left: 60%;
+    } 
+
+    100% {
+        top: -10%;
+        left: 10%;
+    }
+       
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: right_to_left 1s linear;
+}
+
+@keyframes right_to_left {
+
+    0% {
+        bottom: -10%;
+        right: 20%;
+    }
+
+    50% {
+        bottom: -10%;
+        right: 60%;
+    } 
+
+    100% {
+        bottom: -10%;
+        right: 20%;
+    }
+       
+}
+
+/* esercizio 13*/
+
